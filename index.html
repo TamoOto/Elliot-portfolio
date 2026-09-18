@@ -3,61 +3,278 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Parcours professionnel d'Elliot Gunn — recrutement, développement RH, formation, projets RH et innovation." />
-  <title>Elliot Gunn — Parcours RH</title>
+  <meta name="description" content="Elliot Gunn — RH terrain, gestion de projet, intelligence artificielle et transformation des usages." />
+  <meta name="theme-color" content="#171717" />
+  <title>Elliot Gunn — RH × Projets × IA</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <nav class="top-nav" aria-label="Navigation principale">
+    <a href="#top" class="brand">EG<span>.</span></a>
+    <div class="nav-links">
+      <a href="#projets">Projets</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#approche">Approche</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
   <main class="page-shell">
     <section class="hero" id="top">
       <div class="hero-copy">
-        <div class="eyebrow">PARCOURS EN 1 MIN</div>
-        <h1>Elliot Gunn</h1>
-        <p class="role">Chargé de mission RH</p>
-        <p class="hero-text">Mon fil rouge : partir d’un besoin terrain, comprendre ce qui bloque, puis construire une solution RH simple, utile et adoptée.</p>
+        <div class="eyebrow">RH TERRAIN × GESTION DE PROJET × IA</div>
+        <h1>Je transforme des <span>problèmes concrets</span> en solutions utiles.</h1>
+        <p class="hero-text">
+          Recrutement, formation, automatisation, intelligence collective, outils RH :
+          mon fil rouge est toujours le même — comprendre un besoin, structurer une réponse
+          et faire en sorte qu'elle soit réellement utilisée.
+        </p>
+
         <div class="hero-actions">
-          <button class="primary" data-scroll-target="parcours">Découvrir mon parcours</button>
-          <a class="secondary" href="mailto:Gunnelliot@gmail.com">Me contacter</a>
+          <a class="primary" href="#projets">Voir ce que je construis</a>
+          <a class="secondary" href="mailto:Gunnelliot@gmail.com">M'écrire</a>
+          <a class="secondary" href="tel:+33695452910">M'appeler</a>
+        </div>
+
+        <div class="hero-proof">
+          <div><strong>3</strong><span>structures accompagnées</span></div>
+          <div><strong>≈150</strong><span>collaborateurs sur mon périmètre</span></div>
+          <div><strong>1 idée</strong><span>→ un projet → un usage</span></div>
         </div>
       </div>
-      <div class="hero-visual" aria-label="Animation abstraite représentant le parcours d'Elliot">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="avatar-stage" id="avatarStage">
-          <div class="avatar-card"><div class="avatar-initials">EG</div><div class="avatar-label">RH • Projets • Innovation</div></div>
-          <div class="floating-card card-a">Recrutement</div><div class="floating-card card-b">Formation</div><div class="floating-card card-c">IA & outils</div><div class="floating-card card-d">Managers</div>
+
+      <div class="hero-lab" aria-label="Carte interactive du profil">
+        <div class="lab-glow"></div>
+        <div class="lab-card lab-main">
+          <span class="lab-kicker">MON TERRAIN DE JEU</span>
+          <strong>RH + Projet + Produit</strong>
+          <p>Créer, tester, simplifier, faire adopter.</p>
         </div>
+        <div class="lab-card lab-a">Recrutement</div>
+        <div class="lab-card lab-b">Formation</div>
+        <div class="lab-card lab-c">IA & automatisation</div>
+        <div class="lab-card lab-d">Change</div>
+        <div class="lab-card lab-e">UX & usages</div>
       </div>
     </section>
-    <section class="intro-strip">
-      <div><strong>3 structures</strong><span>CHRONO Flex, GCS, HydroCTA</span></div>
-      <div><strong>150 collaborateurs</strong><span>Périmètre RH de proximité</span></div>
-      <div><strong>4 axes</strong><span>Recrutement, formation, projets, innovation</span></div>
+
+    <section class="manifesto" id="approche">
+      <span>MA MANIÈRE DE TRAVAILLER</span>
+      <blockquote>
+        « Mon rôle ne s'arrête pas à imaginer une solution :
+        je m'intéresse autant à sa construction qu'à son appropriation. »
+      </blockquote>
     </section>
+
+    <section class="section projects-section" id="projets">
+      <div class="section-heading">
+        <span>PREUVES PAR LES PROJETS</span>
+        <h2>Pas seulement des compétences sur un CV.</h2>
+        <p>Voici des projets qui montrent comment je réfléchis, construis et fais avancer les sujets.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured" data-project="pex" tabindex="0">
+          <div class="project-topline">
+            <span class="project-tag">PROJET PERSONNEL</span>
+            <span class="project-index">01</span>
+          </div>
+          <h3>PEX — Le vivier d'idées vivantes</h3>
+          <p>
+            Une plateforme collaborative imaginée pour permettre à des personnes de faire grandir
+            des idées et projets grâce aux compétences de la communauté.
+          </p>
+          <div class="project-skills">
+            <span>Vision produit</span><span>UX</span><span>Juridique</span><span>MVP</span><span>Communauté</span>
+          </div>
+          <button class="project-open" type="button">Explorer le projet →</button>
+        </article>
+
+        <article class="project-card" data-project="ia" tabindex="0">
+          <div class="project-topline">
+            <span class="project-tag">IA & RH</span>
+            <span class="project-index">02</span>
+          </div>
+          <h3>Faire entrer l'IA dans les usages RH</h3>
+          <p>
+            Cadre d'usage, expérimentations, automatisations et outils internes :
+            avec une priorité donnée à l'utilité réelle plutôt qu'à l'effet de mode.
+          </p>
+          <div class="project-skills">
+            <span>IA</span><span>Apps Script</span><span>NotebookLM</span><span>Automatisation</span>
+          </div>
+          <button class="project-open" type="button">Voir ma démarche →</button>
+        </article>
+
+        <article class="project-card" data-project="formation" tabindex="0">
+          <div class="project-topline">
+            <span class="project-tag">LEARNING</span>
+            <span class="project-index">03</span>
+          </div>
+          <h3>Transformer un savoir métier en expérience d'apprentissage</h3>
+          <p>
+            Structuration de parcours, coordination d'experts, capsules courtes,
+            quiz et accompagnement des utilisateurs sur 360Learning.
+          </p>
+          <div class="project-skills">
+            <span>360Learning</span><span>Pédagogie</span><span>Coordination</span><span>Adoption</span>
+          </div>
+          <button class="project-open" type="button">Voir l'approche →</button>
+        </article>
+
+        <article class="project-card" data-project="recrutement" tabindex="0">
+          <div class="project-topline">
+            <span class="project-tag">RECRUTEMENT</span>
+            <span class="project-index">04</span>
+          </div>
+          <h3>Recruter quand les méthodes classiques ne suffisent plus</h3>
+          <p>
+            Proactivité, veille, personas, actions terrain et nouveaux canaux
+            pour aller chercher les candidats là où ils sont réellement.
+          </p>
+          <div class="project-skills">
+            <span>Sourcing</span><span>Marque employeur</span><span>Terrain</span><span>Expérimentation</span>
+          </div>
+          <button class="project-open" type="button">Voir des exemples →</button>
+        </article>
+
+        <article class="project-card" data-project="collectif" tabindex="0">
+          <div class="project-topline">
+            <span class="project-tag">INTELLIGENCE COLLECTIVE</span>
+            <span class="project-index">05</span>
+          </div>
+          <h3>Faire produire le groupe plutôt que parler à sa place</h3>
+          <p>
+            World Café, 1-2-4-All et ateliers collaboratifs pour faire émerger
+            des solutions directement depuis les personnes concernées.
+          </p>
+          <div class="project-skills">
+            <span>Facilitation</span><span>Animation</span><span>Co-construction</span><span>Change</span>
+          </div>
+          <button class="project-open" type="button">Voir la méthode →</button>
+        </article>
+
+        <article class="project-card" data-project="catalyseur" tabindex="0">
+          <div class="project-topline">
+            <span class="project-tag">EXPÉRIMENTATION</span>
+            <span class="project-index">06</span>
+          </div>
+          <h3>Catalyseur Social</h3>
+          <p>
+            Une simulation organisationnelle pour explorer les effets de différents modèles
+            de fonctionnement sur performance, cohésion et stress.
+          </p>
+          <div class="project-skills">
+            <span>Python</span><span>Streamlit</span><span>Simulation</span><span>Organisation</span>
+          </div>
+          <button class="project-open" type="button">Découvrir le concept →</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section numbers-section">
+      <div class="section-heading light">
+        <span>CE QUE ÇA DIT DE MON PROFIL</span>
+        <h2>Je relie le terrain, les outils et les usages.</h2>
+      </div>
+      <div class="strength-grid">
+        <div><strong>01</strong><h3>Comprendre</h3><p>Partir du besoin réel plutôt que de la solution toute faite.</p></div>
+        <div><strong>02</strong><h3>Structurer</h3><p>Découper un problème, prioriser et faire avancer un projet.</p></div>
+        <div><strong>03</strong><h3>Construire</h3><p>Créer un outil, un parcours, une méthode ou un prototype concret.</p></div>
+        <div><strong>04</strong><h3>Faire adopter</h3><p>Accompagner les personnes pour transformer une idée en usage.</p></div>
+      </div>
+    </section>
+
     <section class="section" id="parcours">
-      <div class="section-heading"><span>MON PARCOURS</span><h2>De la recherche de candidats à la transformation RH</h2></div>
+      <div class="section-heading">
+        <span>PARCOURS</span>
+        <h2>Une base RH solide, puis un terrain de jeu de plus en plus large.</h2>
+      </div>
+
       <div class="timeline">
-        <article class="timeline-item active" data-step="1"><div class="timeline-year">2019</div><div class="timeline-content"><h3>SODIAS — Conseil juridique / RH</h3><p>Première immersion professionnelle autour du droit social et des sujets RH.</p></div></article>
-        <article class="timeline-item" data-step="2"><div class="timeline-year">2020–2022</div><div class="timeline-content"><h3>ABSOLIS Intérim — Assistant RH</h3><p>Recrutement, gestion du personnel, formation et diagnostic RH. Une première vision très opérationnelle de la fonction RH.</p></div></article>
-        <article class="timeline-item" data-step="3"><div class="timeline-year">Depuis 2022</div><div class="timeline-content"><h3>CHRONO Flex — Chargé de mission RH</h3><p>Un rôle hybride : recrutement de A à Z, accompagnement des managers, formation, projets RH, digitalisation et accompagnement du changement.</p></div></article>
+        <article class="timeline-item">
+          <div class="timeline-year">2019</div>
+          <div class="timeline-content">
+            <h3>SODIAS — Conseil juridique / RH</h3>
+            <p>Première immersion professionnelle autour du droit social et des problématiques RH.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-year">2020–2022</div>
+          <div class="timeline-content">
+            <h3>ABSOLIS Intérim — Assistant RH</h3>
+            <p>Recrutement, gestion du personnel, formation, administration RH et diagnostic RH.</p>
+          </div>
+        </article>
+        <article class="timeline-item active">
+          <div class="timeline-year">Depuis 2022</div>
+          <div class="timeline-content">
+            <h3>CHRONO Flex — Chargé de mission RH</h3>
+            <p>
+              Recrutement, accompagnement managers, formation, digitalisation,
+              amélioration continue, intelligence collective et projets transverses.
+            </p>
+          </div>
+        </article>
       </div>
     </section>
-    <section class="section dark-section">
-      <div class="section-heading light"><span>CE QUE JE FAIS CONCRÈTEMENT</span><h2>Quatre façons d’agir sur le terrain</h2></div>
-      <div class="impact-grid">
-        <article class="impact-card"><div class="impact-number">01</div><h3>Faire postuler</h3><p>Recrutement de A à Z, recrutement proactif, benchmark continu des canaux et création d’actions terrain quand les méthodes classiques ne suffisent plus.</p><div class="example">Exemple : sets de table personnalisés dans des restaurants routiers pour gagner en visibilité dans des zones de pénurie.</div></article>
-        <article class="impact-card"><div class="impact-number">02</div><h3>Mobiliser l’entreprise</h3><p>Création de personas de recrutement pour aider les collaborateurs à savoir qui rechercher, qui approcher et quels profils solliciter lors des événements professionnels.</p><div class="example">Objectif : faire du recrutement une responsabilité plus collective.</div></article>
-        <article class="impact-card"><div class="impact-number">03</div><h3>Faire apprendre</h3><p>Développement de la formation numérique, création des contenus de A à Z et coordination des experts métier pour transformer leur savoir en parcours utilisables.</p><div class="example">Outil principal : 360Learning.</div></article>
-        <article class="impact-card"><div class="impact-number">04</div><h3>Faire adopter</h3><p>Charte IA, outils internes, automatisations et projets d’aide au quotidien. Chaque nouvel outil est accompagné pour qu’il soit compris et réellement utilisé.</p><div class="example">Le changement fait partie du travail, pas seulement du lancement.</div></article>
+
+    <section class="section toolkit">
+      <div class="section-heading">
+        <span>BOÎTE À OUTILS</span>
+        <h2>Des outils au service du problème, pas l'inverse.</h2>
+      </div>
+      <div class="skill-cloud">
+        <span>Teamtailor</span><span>360Learning</span><span>Google Sheets</span>
+        <span>Apps Script</span><span>NotebookLM</span><span>Streamlit</span>
+        <span>GitHub</span><span>Gemini</span><span>Salesforce</span>
+        <span>Intelligence collective</span><span>Gestion de projet</span><span>UX</span>
       </div>
     </section>
-    <section class="section philosophy"><div class="philosophy-card"><span>MA FAÇON DE TRAVAILLER</span><blockquote>« Comment faire en sorte que les gens postulent, comprennent, adoptent et aient envie d’utiliser ce qu’on construit ? »</blockquote><p>C’est la question que je retrouve derrière beaucoup de mes projets, qu’il s’agisse de recrutement, de formation, d’IA ou d’outils RH.</p></div></section>
-    <section class="section skills-section"><div class="section-heading"><span>POINTS FORTS</span><h2>Un profil RH hybride</h2></div><div class="skill-cloud"><span>Recrutement de A à Z</span><span>Recrutement proactif</span><span>Marque employeur</span><span>RH de proximité</span><span>Formation numérique</span><span>Gestion de projet</span><span>Accompagnement du changement</span><span>Intelligence collective</span><span>IA & automatisation</span><span>Digitalisation RH</span></div></section>
-    <section class="cta-section"><div><span>POUR ALLER PLUS LOIN</span><h2>Le CV résume mon parcours. Ici, je voulais surtout montrer comment je travaille.</h2></div><div class="cta-actions"><a class="primary link-button" href="mailto:Gunnelliot@gmail.com">Échanger avec moi</a><a class="secondary link-button" href="#top">Revenir en haut</a></div></section>
+
+    <section class="cta-section" id="contact">
+      <div>
+        <span>ENVIE D'EN PARLER ?</span>
+        <h2>Un projet, un poste, un problème à résoudre : échangeons.</h2>
+        <p>Nantes / Orvault — mobilité selon le projet.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="primary link-button" href="mailto:Gunnelliot@gmail.com">Gunnelliot@gmail.com</a>
+        <a class="secondary link-button" href="tel:+33695452910">06 95 45 29 10</a>
+        <a class="secondary link-button" href="https://github.com/TamoOto" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      </div>
+    </section>
   </main>
+
+  <aside class="contact-dock" aria-label="Contacts rapides">
+    <a href="mailto:Gunnelliot@gmail.com" aria-label="Envoyer un email">Mail</a>
+    <a href="tel:+33695452910" aria-label="Appeler Elliot">Appeler</a>
+    <a href="https://github.com/TamoOto" target="_blank" rel="noopener noreferrer" aria-label="Voir le GitHub">GitHub</a>
+  </aside>
+
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Fermer">×</button>
+      <span class="modal-kicker" id="modalKicker"></span>
+      <h2 id="modalTitle"></h2>
+      <p class="modal-lead" id="modalLead"></p>
+      <div class="modal-columns">
+        <div><h3>Le point de départ</h3><p id="modalProblem"></p></div>
+        <div><h3>Ce que j'ai construit</h3><p id="modalBuild"></p></div>
+      </div>
+      <div class="modal-proof">
+        <h3>Ce que ce projet démontre</h3>
+        <div class="project-skills" id="modalSkills"></div>
+      </div>
+    </section>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
