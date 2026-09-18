@@ -8,12 +8,12 @@ const projects = {
     skills: ['Gestion de projet','Vision produit','UX','Juridique','MVP','Communauté']
   },
   ia: {
-    kicker: 'IA & RH',
-    title: 'Faire entrer l’IA dans les usages RH',
-    lead: 'Je cherche moins à “faire de l’IA” qu’à identifier les endroits où elle peut vraiment simplifier le travail.',
-    problem: 'Les outils IA peuvent vite rester au stade de la démonstration. Le vrai enjeu est de les relier à des irritants concrets et de créer un cadre d’usage compréhensible.',
-    build: 'Expérimentations internes, automatisations, outils RH, structuration d’une charte IA, utilisation de NotebookLM et accompagnement des collaborateurs dans la prise en main.',
-    skills: ['IA','Automatisation','Apps Script','NotebookLM','Change','Adoption']
+    kicker: 'IA RESPONSABLE & RH',
+    title: 'Déployer l’IA sans perdre le jugement humain',
+    lead: 'Ma vision : utiliser l’IA pour gagner du temps, mieux structurer le travail et augmenter les capacités des équipes — jamais pour faire à leur place sans recul.',
+    problem: 'Déployer des outils IA sans cadre peut créer de mauvais réflexes, de la dépendance, des erreurs ou des usages peu responsables. L’enjeu n’est donc pas seulement technique : il est aussi éthique, pédagogique et organisationnel.',
+    build: 'Déploiement d’usages IA et d’automatisations RH, création d’une charte IA, sensibilisation aux bonnes pratiques, accompagnement des collaborateurs et mise en avant d’un principe simple : l’IA assiste, propose et accélère ; l’humain garde le contrôle, vérifie et décide.',
+    skills: ['IA responsable','Charte IA','Éthique','Sensibilisation','Automatisation','Accompagnement du changement']
   },
   formation: {
     kicker: 'LEARNING',
