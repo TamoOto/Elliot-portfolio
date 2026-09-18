@@ -24,12 +24,12 @@ const projects = {
     skills: ['Learning','360Learning','Pédagogie','Coordination','Adoption']
   },
   recrutement: {
-    kicker: 'RECRUTEMENT',
-    title: 'Recruter quand les méthodes classiques ne suffisent plus',
-    lead: 'Sur des métiers en tension, publier une annonce et attendre n’est pas une stratégie suffisante.',
-    problem: 'Certains profils sont rares, peu présents sur les jobboards et difficiles à atteindre avec des campagnes standards.',
-    build: 'Personas, veille proactive, partenariats, actions terrain, communication ciblée et expérimentation de nouveaux points de contact avec les candidats.',
-    skills: ['Sourcing','Proactivité','Marque employeur','Terrain','Expérimentation']
+    kicker: 'RECRUTEMENT & MARQUE EMPLOYEUR',
+    title: 'Faire de la marque employeur un levier de recrutement',
+    lead: 'L’attractivité employeur et le recrutement avancent ensemble : chaque action doit donner envie de découvrir l’entreprise autant qu’elle doit permettre de rencontrer les bons profils.',
+    problem: 'Sur des métiers en tension, publier une annonce ne suffit pas. Il faut travailler la visibilité, les bons points de contact et l’expérience proposée aux candidats.',
+    build: 'Recherche et expérimentation de solutions au service de la marque employeur et du recrutement : communication ciblée, partenariats, actions terrain, veille proactive, nouveaux canaux et amélioration de l’expérience candidat.',
+    skills: ['Recrutement','Marque employeur','Attractivité','Expérience candidat','Proactivité','Expérimentation']
   },
   collectif: {
     kicker: 'INTELLIGENCE COLLECTIVE',
